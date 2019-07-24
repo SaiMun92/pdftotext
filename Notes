@@ -1,0 +1,9 @@
+https://askubuntu.com/questions/211870/how-to-convert-all-pdf-files-to-text-within-a-folder-with-one-command
+file:///C:/Users/sm.lee/Downloads/pdfminer.six-master/pdfminer.six-master/docs/index.html
+https://github.com/pdfminer/pdfminer.six
+
+
+
+Using pdftotext // ALTERNATIVE CONVERTING TO TEXT
+for file in *.pdf; do pdftotext "$file"; done
+
