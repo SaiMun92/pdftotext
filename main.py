@@ -63,8 +63,8 @@ def convertMultiple(pdfDir, txtDir):
                 textFile.write(text) #write text to text file
 
 
-pdfDir = r"C:\Users\sm.lee\Desktop\pdf"
-txtDir = r"C:\Users\sm.lee\Desktop\txt"
+pdfDir = r"C:\Users\huangdajing\Desktop\Cases_from_ICMS_s323"
+txtDir = r"C:\Users\huangdajing\Desktop\Cases_from_ICMS_s323_txt"
 convertMultiple(pdfDir, txtDir)
 
 
